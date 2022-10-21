@@ -1,0 +1,21 @@
+name: airogs
+channels:
+  - conda-forge
+  - pytorch
+  - huggingface
+  - defaults
+dependencies:
+  - python=3.9.7
+  - numpy
+  - matplotlib
+  - ipywidgets
+  - jupyter
+  - pytorch
+  - torchvision
+  - pip
+  - transformers
+  - torchmetrics
+  - pillow
+  - scikit-learn
+  - pip:
+    - opencv-python
